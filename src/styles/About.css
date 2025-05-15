@@ -1,0 +1,52 @@
+.acerca-container {
+  width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #e9ecef;
+  color: #052449;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  
+  text-align: center;
+}
+
+.acerca-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #0d6efd;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.acerca-text {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.acerca-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 24px;
+  color: #052449;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #333;
+}
+
+

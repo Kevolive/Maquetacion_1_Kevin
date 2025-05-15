@@ -1,0 +1,86 @@
+body{
+  background-color: #0b2138;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid 2px black;
+}
+
+.login-banner img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: solid rgb(161, 6, 6) 10px;
+
+}
+
+.login-form {
+  width: 400px;
+  padding: 50px;
+  background-color: #fcfcfc;
+  border: 2px solid black;
+  border-radius: 4px; /* Menor curvatura para hacerlo más rectangular */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: -50px;
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+
+.login-form input {
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 2px solid black; 
+  border-radius: 6px; 
+  background-color: #f9f9f9; 
+  font-size: 16px; 
+  outline: none; 
+  transition: border-color 0.3s ease; 
+  font-weight: bold;
+  
+}
+ 
+.login-form input:focus {
+  border-color: #f8f9fa; /* Cambia el borde a azul al enfocar */
+  background-color: #fff; /* Fondo blanco al enfocar */
+  box-shadow: 0 0 5px rgba(249, 249, 250, 0.5); /* Sombra azul */
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 4px 4px 0px black;
+}
+
+
+/* Efecto hover para el botón */
+.login-form button:hover {
+  background-color: #f0f0f0; /* Fondo gris claro al pasar el cursor */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+/* Efecto activo para el botón */
+.login-form button:active {
+  background-color: #e0e0e0; /* Fondo más oscuro al hacer clic */
+  transform: scale(0.95); /* Reduce ligeramente el tamaño */
+}
+
+.login-form input::placeholder {
+  color: black; /* Cambia el color del placeholder a negro */
+  font-weight: bold; /* Opcional: Hace que el texto del placeholder sea más visible */
+}
