@@ -3,9 +3,9 @@ import '../styles/About.css';
 function AcercaDe() {
   return (
     <div className="acerca-container">
-      <h1 className="acerca-title">Acerca de Nosotros</h1>
+      <h1 className="acerca-title">Acerca de </h1>
       <p className="acerca-text">
-        Somos una empresa dedicada a la tecnología.
+        Este Acerca de es con un fin educativo del curso de Desarrollo web II.
       </p>
 
       <div className="acerca-cards">
